@@ -1,0 +1,9 @@
+a {
+  text-decoration: none;
+  padding-right: 50px;
+}
+
+a:hover {
+  color: crimson;
+  font-weight: bold;
+}
