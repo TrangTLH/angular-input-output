@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent  {
 
+  homePage: string = '/home'
+
   storeName: string = 'Cửa hàng Nhuận Thanh'
 
   navs = [
