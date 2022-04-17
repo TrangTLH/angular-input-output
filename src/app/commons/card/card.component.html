@@ -1,5 +1,5 @@
 <div class="card mb-5">
-  <img src="assets/images/vot_bat_muoi_3.jpg" class="card-img-top pt-2" alt="...">
+  <img [src]="productImage" class="card-img-top pt-2" [alt]="productName">
   <div class="card-body pt-0 pb-3">
     <p class="card-title text-center">
       <a (click)="goToDetail()" style="text-transform: uppercase">{{productName}}</a>

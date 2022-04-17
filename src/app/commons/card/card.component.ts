@@ -1,23 +1,21 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {Router} from "@angular/router";
 import {Routing} from "@enums/routing.enum";
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css']
+  styleUrls: ['./card.component.scss']
 })
-export class CardComponent implements OnInit {
+export class CardComponent {
 
   @Input() productName: string = ''
   @Input() productCode: string = ''
+  @Input() productImage: string = ''
 
   constructor(
     private router: Router
   ) {
-  }
-
-  ngOnInit(): void {
   }
 
   goToDetail() {
